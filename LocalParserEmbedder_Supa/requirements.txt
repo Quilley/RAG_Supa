@@ -1,0 +1,16 @@
+langchain
+langchain-community
+transformers
+tqdm
+unstructured
+unstructured-inference
+python-dotenv
+supabase
+numpy
+pdfminer.six
+pdf2image
+sentence-transformers
+google-generativeai
+poppler-utils
+torch
+requests
