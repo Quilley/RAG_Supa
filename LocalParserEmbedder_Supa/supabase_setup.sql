@@ -1,11 +1,12 @@
--- Create the function for vector similarity search
+DROP FUNCTION match_documents(vector, float, int);
+
 CREATE OR REPLACE FUNCTION match_documents (
   query_embedding vector(1024),
   match_threshold float,
   match_count int
 )
 RETURNS TABLE (
-  id bigint,
+  id uuid,
   content text,
   metadata jsonb,
   similarity float
